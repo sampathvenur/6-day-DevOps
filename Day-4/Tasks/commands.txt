@@ -1,0 +1,13 @@
+Task: Deploy a Pod using Kubectl
+
+1. Started Minikube:
+   minikube start
+
+2. Applied pod definition:
+   kubectl apply -f pod-definition.yaml
+
+3. Checked pod status:
+   kubectl get pods
+
+4. Deleted pod after verification:
+   kubectl delete pod hello-pod
