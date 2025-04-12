@@ -1,0 +1,15 @@
+Docker Hands-on Tasks:
+
+1. Pulled a basic Ubuntu image:
+   docker pull ubuntu
+
+2. Ran a container:
+   docker run -it ubuntu
+
+3. Created a Dockerfile for a Hello World app:
+   FROM alpine
+   CMD ["echo", "Hello from Docker!"]
+
+4. Built and ran the Docker image:
+   docker build -t hello-docker .
+   docker run hello-docker
