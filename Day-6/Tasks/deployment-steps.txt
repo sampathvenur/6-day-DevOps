@@ -1,0 +1,15 @@
+Task: Deploy a Hello World HTML app
+
+1. Built Docker image:
+   docker build -t your-dockerhub-username/hello-app .
+
+2. Pushed image to DockerHub:
+   docker push your-dockerhub-username/hello-app
+
+3. Applied Kubernetes config:
+   kubectl apply -f k8s-deployment.yaml
+
+4. Verified:
+   kubectl get pods, deployments, services
+
+5. Accessed app on: http://<node-ip>:30036
