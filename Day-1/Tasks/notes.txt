@@ -1,0 +1,12 @@
+TASK – Git Hands-on
+
+1. Initialized a new Git repo:
+   git init
+
+2. Added and committed files:
+   git add .
+   git commit -m "initial commit"
+
+3. Connected to remote:
+   git remote add origin <repo_url>
+   git push -u origin main
