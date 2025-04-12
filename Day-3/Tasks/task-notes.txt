@@ -1,0 +1,13 @@
+Task: Setup multi-container app with Docker Compose
+
+1. Created a `docker-compose.yml` with:
+   - nginx as a frontend container
+   - alpine for a basic backend simulation
+
+2. Ran:
+   docker-compose up
+
+3. Verified Nginx on localhost:8080
+
+4. Brought down the containers:
+   docker-compose down
